@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>   
+    <style>
+        body {
+            text-align: center; /* Center align all content */
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+            background-image: url('https://cdn.pixabay.com/photo/2016/10/11/15/13/smilies-1731855_1280.jpg'); /* Set background image */
+            background-position: center; /* Center the background image */
+            background-size: cover;
+            background-attachment: fixed;
+
+
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Result</h1>
+        <p>Prediction: {{ prediction }}</p>
+    </div>
+</body>
+</html>
